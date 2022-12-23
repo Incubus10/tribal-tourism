@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type=text/css> 
+  body 
+  {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
+  }
+  header {
+  background-color: orange;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  }
+  header * {
+  display: inline;
+  }
+  header li {
+  margin: 20px;
+  }
+  header li a {
+  color: blue;
+  text-decoration: none;
+  }
+  </style> 
+  </Head>
+  <Body> 
+  <header>
+  <nav>
+  <ul>
+  <li>
+  <a href="agro.html"> Home </a>
+  </li>
+  <li>
+  <a href="packages.html"> About </a>
+  </li>
+  <li>
+  <a href="contact.html"> Contact </a>
+  </li>
+
+  </li>
+  </ul>
+  </nav>
+  </header>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center"> Offer Available</h2>
+
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">₹ 1099.99 </li>
+    <li>No Night Tour</li>
+    <li> Food Facility</li>
+    <li>Walking</li>
+    <li>2 days tour</li>
+    <li class="grey"><a href="#" class="button">Visit</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+      <li class="header">Pro</li>
+      <li class="grey">₹ 2400.99 </li>
+      <li>Night Tour</li>
+      <li>High Food Facility</li>
+      <li>vechile</li>
+      <li>3 days</li>
+      <li class="grey"><a href="#" class="button">Visit</a></li>
+    </ul>
+  </div>
+
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Premium</li>
+      <li class="grey">₹ 4900.99 </li>
+      <li>Night Tour</li>
+      <li>High Food Facility</li>
+      <li>high quality Good vechile</li>
+      <li>1 weeks</li>
+      <li class="grey"><a href="#" class="button">Visit</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
